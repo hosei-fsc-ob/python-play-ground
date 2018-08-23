@@ -4,7 +4,7 @@ import numpy as np
 
 def run():
     '''テキトゥー'''
-    for r in make_rand_seed():
+    for r in make_rand_matrix():
         print(r)
 
 
