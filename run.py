@@ -8,7 +8,7 @@ def run():
         print(r)
 
 
-def make_rand_seed():
+def make_rand_matrix():
     for i in range(10):
         yield np.random.rand(3)
 
