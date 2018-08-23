@@ -10,7 +10,7 @@ def run():
 
 def make_rand_seed():
     for i in range(10):
-        yield np.random.rand(5)
+        yield np.random.rand(3)
 
 
 if __name__ == '__main__':
